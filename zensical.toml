@@ -1,0 +1,21 @@
+[project]
+site_name = "Szabolcs Szepesi"
+repo_url = "https://szepesisz.github.io/"
+repo_name = "szepesisz.github.io"
+
+nav = [
+    { "Home" = "index.md" },
+]
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+toggle.icon = "material/brightness-7"
+toggle.name = "Switch to dark mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+toggle.icon = "material/brightness-4"
+toggle.name = "Switch to light mode"
+
